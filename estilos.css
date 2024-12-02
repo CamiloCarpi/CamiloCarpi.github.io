@@ -1,0 +1,51 @@
+p {
+    
+    color: rgb(216, 19, 36);
+}
+
+.clases {
+    color: blueviolet;
+}
+
+#identificador{
+    color: rgb(0, 250, 33);
+}
+#seccion1{
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid red;
+}
+#seccion2{
+    width: 270px;
+    height: 220px;
+    margin: 5px;
+    padding: 20px;
+    border: 3px solid green;
+    background-color: rgb(0, 18, 177);
+}
+#seccion3{
+    width: 340px;
+    height: 490px;
+    margin: 5px;
+    padding: 20px;
+    border: 1px solid blue;
+}
+  .contenedor{
+    display: flex;
+    justify-content: space-around;
+  }
+.item{
+    background-color: rgb(6, 82, 56);
+}
+.item10{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.grid-item{
+    background-color: aqua;
+    text-align: center;
+}
