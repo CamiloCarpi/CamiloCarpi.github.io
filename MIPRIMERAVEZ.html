@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página web de carpintería, muebles a medida, reformas y más.">
+    <title>Carpintería Empotrados & Mas</title>
+    <link rel="stylesheet" href="primeravez.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">
+            <img src="104046.png" alt="Carpintería Nombre">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="MIPRIMERAVEZ.html">Inicio</a></li>
+                <li><a href="SobreNosotros.html">Sobre Nosotros</a></li>
+                <li><a href="Servicios.html">Servicios</a></li>
+                <li><a href="Proyectos.html">Proyectos</a></li>
+                <li><a href="Contactenos.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner Principal -->
+    <section id="inicio" class="banner">
+        <h1>Transformamos la madera en arte y funcionalidad</h1>
+        <a href="#contacto" class="cta-button">Solicita tu presupuesto</a>
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos una carpintería con más de 10 años de experiencia. Nos especializamos en muebles a medida y reformas.</p>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <div class="servicio">
+            <h3>Muebles a Medida</h3>
+            <p>Diseñamos y fabricamos muebles según las necesidades de nuestros clientes.</p>
+        </div>
+        <div class="servicio">
+            <h3>Reformas</h3>
+            <p>Realizamos reformas de interiores con materiales de alta calidad.</p>
+        </div>
+        <!-- Agregar más servicios según sea necesario -->
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="galeria">
+            <img src="mueble1.jpeg" alt="Proyecto 1" width="600px" height="800px">
+            <img src="mueble2.jpeg" alt="Proyecto 2" width="600px" height="800px">
+            <img src="mueble3.jpeg" alt="Proyecto 3" width="600px" height="800px">
+        </div>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="contact.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>&copy; 2024 Carpintería Nombre. Todos los derechos reservados.</p>
+        <div class="social-media">
+            <a href="#">Facebook</a> | <a href="#">Instagram</a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
